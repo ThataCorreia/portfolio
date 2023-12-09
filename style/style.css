@@ -239,10 +239,16 @@ body {
         .cabecalho {
             padding: 3%;
         }
+
+        .cabecalho_menu {
+            gap: 10px; }
     
         .apresentacao {
             padding: 3%;
         }
+
+        .apresentacao_links {
+            gap: 10px;}
     }
 
     @media (max-width: 800px) {
@@ -250,9 +256,19 @@ body {
             padding: 3%;
         }
     
+        .cabecalho_menu {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px; 
+        }
+
         .apresentacao {
             padding: 3%;
         }
+
+        .apresentacao_links {
+            flex-direction: column;
+            gap: 20px;}
     }
     
 }
