@@ -235,7 +235,26 @@ body {
         position:relative;
     }
 
-   
+    @media (max-width: 480px) {
+        .cabecalho {
+            padding: 3%;
+        }
+    
+        .apresentacao {
+            padding: 3%;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .cabecalho {
+            padding: 3%;
+        }
+    
+        .apresentacao {
+            padding: 3%;
+        }
+    }
+    
 }
 
 
