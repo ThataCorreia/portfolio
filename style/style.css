@@ -255,7 +255,7 @@ body {
   }
 
   .cabecalho {
-    padding: 2vw 0 0 2vw;
+    padding: 2px 0 0 2px;
   }
 
   .cabecalho_menu {
@@ -313,7 +313,6 @@ body {
 
   .apresentacao_curriculo_texto {
     font-size: 1.2rem;
-    
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     text-align: left;
