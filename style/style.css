@@ -207,7 +207,7 @@ body {
   width: 100%;
   padding: 1rem;
   text-align: center;
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, Verdana, sans-serif;
   background-color: var(--cor-primaria);
 }
 
@@ -234,7 +234,7 @@ body {
   }
 
   .rodape {
-    padding: 1rem;
+    padding: 10px;
     position: unset;
   }
 }
@@ -297,7 +297,7 @@ body {
 
   .rodape {
     position: unset;
-    padding: 1rem;
+    padding: 10px;
   }
 }
 
