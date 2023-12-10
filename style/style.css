@@ -250,7 +250,6 @@ body {
 @media (max-width: 480px) {
 
   .body {
-    margin: auto;
     overflow-x: hidden;
     box-sizing: border-box;
   }
@@ -272,10 +271,6 @@ body {
 
   .apresentacao {
     padding: 3%;
-  }
-
-  .apresentacao_conteudo {
-    
   }
 
   .apresentacao_conteudo_titulo {
