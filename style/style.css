@@ -265,7 +265,7 @@ body {
 
   .fotoperfil {
     width: 40vh;
-    height: auto;
+  
   }
 
   .apresentacao {
@@ -320,7 +320,7 @@ body {
   }
 
   .apresentacao_links_subtitulo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 10px;
   }
 
@@ -329,8 +329,8 @@ body {
   }
 
   .apresentacao_links_botoes {
-    width: 40vh;
-    font-size: 1rem;
+    width: 50vh;
+    font-size: 1.2rem;
   }
 
   .rodape {
