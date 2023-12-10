@@ -256,6 +256,7 @@ body {
 
   .cabecalho {
     padding: 2% 0% 0% 5%;
+    max-width: 100%;
   }
 
   .cabecalho_menu {
