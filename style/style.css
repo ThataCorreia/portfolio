@@ -15,12 +15,12 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x:hidden;
+ 
 }
 
 body {
-  overflow-x:hidden;
   box-sizing: "border-box";
+  overflow-x: hidden;
   background-color: var(--cor-quartenaria);
   color: var(--cor-quinaria);
 }
@@ -193,6 +193,7 @@ body {
   font-family: var(--fonte-textos);
   font-size: 1.5rem;
   padding: 1rem;
+  margin: -1rem;
 }
 
 .certificado_link {
