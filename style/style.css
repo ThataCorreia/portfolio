@@ -19,7 +19,7 @@
 }
 
 body {
-  box-sizing:"border-box";
+  box-sizing: "border-box";
   height: 100vh;
   overflow-x: hidden;
   background-color: var(--cor-quartenaria);
@@ -195,7 +195,6 @@ body {
 
 .rodape {
   position:absolute;
-  bottom: 0;
   width: 100%;
   padding: 1rem;
   text-align: center;
@@ -252,7 +251,7 @@ body {
   .body {
     overflow-x: hidden;
     box-sizing: border-box;
-    height: 100vh;
+    font-size: 2vw;
   }
 
   .cabecalho {
@@ -286,7 +285,7 @@ body {
 
   .apresentacao_estudos {
     font-size: 1.8rem;
-    
+    margin: -1%;
   }
 
   .apresentacao_estudo_texto {
@@ -299,7 +298,7 @@ body {
 
   .apresentacao_experiencias {
     font-size: 1.8rem;
-    
+    margin: -1%;
     
   }
 
@@ -311,7 +310,8 @@ body {
 
   .apresentacao_curriculo_texto {
     font-size: 1.2rem;
-   
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
     
   }
 
