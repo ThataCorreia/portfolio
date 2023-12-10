@@ -154,7 +154,7 @@ body {
     font-size: 1.5rem;
 }
 
-.apresentacao_conteudo_texto a{
+.apresentacao_conteudo_texto {
     text-decoration: none;
     color:var(--cor-terciaria);
 }
@@ -244,6 +244,10 @@ body {
             align-items: center;
             gap: 10px; }
     
+        .fotoperfil {
+            width: 100%;
+        }    
+
         .apresentacao {
             padding: 3%;
         }
