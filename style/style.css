@@ -286,7 +286,7 @@ body {
 
   .apresentacao_estudos {
     font-size: 1.8rem;
-    margin: -1%;
+    
   }
 
   .apresentacao_estudo_texto {
@@ -299,7 +299,7 @@ body {
 
   .apresentacao_experiencias {
     font-size: 1.8rem;
-    margin: -1%;
+    
     
   }
 
@@ -311,8 +311,7 @@ body {
 
   .apresentacao_curriculo_texto {
     font-size: 1.2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+   
     
   }
 
