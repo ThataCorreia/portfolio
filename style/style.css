@@ -252,6 +252,8 @@ body {
     overflow-x: hidden;
     box-sizing: border-box;
     font-size: 2vw;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .cabecalho {
