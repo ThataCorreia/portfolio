@@ -53,7 +53,7 @@ body {
 
 .apresentacao_conteudo {
   width: 50%;
-  text-align: justify;
+  text-align:justify;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -139,7 +139,7 @@ body {
   width: auto;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 3vh;
 }
 
 .apresentacao_curriculo_curriculo {
@@ -150,8 +150,8 @@ body {
 
 .apresentacao_curriculo_texto {
   font-family: var(--fonte-textos);
-  text-align: justify;
   font-size: 1.5rem;
+  text-align:justify;
 }
 
 .apresentacao_conteudo_texto {
@@ -174,7 +174,6 @@ body {
 .apresentacao_experiencia_texto {
   font-family: var(--fonte-textos);
   font-size: 1.5rem;
-  text-align: justify;
 }
 
 .apresentacao_estudos {
@@ -265,11 +264,16 @@ body {
   }
 
   .fotoperfil {
-    width: 60%;
+    width: 40vh;
+    height: auto;
   }
 
   .apresentacao {
     padding: 3%;
+  }
+
+  .apresentacao_conteudo {
+    text-align: left;
   }
 
   .apresentacao_conteudo_titulo {
@@ -279,6 +283,7 @@ body {
   .apresentacao_conteudo_texto {
     font-size: 1.2rem;
     margin: 10px;
+    text-align: left;
   }
 
   .apresentacao_estudos {
@@ -291,16 +296,19 @@ body {
     margin: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+    text-align: left;
   }
 
   .apresentacao_experiencias {
     font-size: 1.8rem;
     margin: -1%;
+    text-align: left;
   }
 
   .apresentacao_experiencia_texto {
     font-size: 1.2rem;
     margin: 1rem;
+    text-align: left;
   }
 
   .apresentacao_curriculo_texto {
@@ -308,6 +316,7 @@ body {
     margin: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+    text-align: left;
   }
 
   .apresentacao_links_subtitulo {
@@ -320,7 +329,7 @@ body {
   }
 
   .apresentacao_links_botoes {
-    width: 50%;
+    width: 50vh;
     font-size: 1.2rem;
   }
 
