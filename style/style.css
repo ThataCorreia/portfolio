@@ -256,7 +256,7 @@ body {
   }
 
   .cabecalho {
-    padding: 2px 0 0 2px;
+    padding: 2vw 0 0 2vw;
   }
 
   .cabecalho_menu {
@@ -267,6 +267,7 @@ body {
   .fotoperfil {
     width: 40vh;
     height: auto;
+    border-radius: 40%;
   }
 
   .apresentacao {
@@ -274,7 +275,7 @@ body {
   }
 
   .apresentacao_conteudo {
-    text-align: left;
+    
   }
 
   .apresentacao_conteudo_titulo {
@@ -284,7 +285,7 @@ body {
   .apresentacao_conteudo_texto {
     font-size: 1.2rem;
     margin: 10px;
-    text-align: left;
+    
   }
 
   .apresentacao_estudos {
@@ -297,26 +298,26 @@ body {
     margin: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    text-align: left;
+    
   }
 
   .apresentacao_experiencias {
     font-size: 1.8rem;
     margin: -1%;
-    text-align: left;
+    
   }
 
   .apresentacao_experiencia_texto {
     font-size: 1.2rem;
     margin: 1rem;
-    text-align: left;
+    
   }
 
   .apresentacao_curriculo_texto {
     font-size: 1.2rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    text-align: left;
+    
   }
 
   .apresentacao_links_subtitulo {
