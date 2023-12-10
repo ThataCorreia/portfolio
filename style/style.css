@@ -251,11 +251,11 @@ body {
 
   .body {
     overflow-x: hidden;
-    width: 100%;
+    max-width: 100%;
   }
 
   .cabecalho {
-    padding: 2% 0% 0% 5px;
+    padding: 2% 0% 0% 5%;
   }
 
   .cabecalho_menu {
