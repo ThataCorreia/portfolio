@@ -237,7 +237,7 @@ body {
 
     @media (max-width: 480px) {
         .cabecalho {
-            padding: 3%;
+            padding: 2% 5px;
         }
 
         .cabecalho_menu {
@@ -248,6 +248,30 @@ body {
             padding: 3%;
         }
 
+        .apresentacao_conteudo_texto {
+            font-size: 1.2rem;
+        }
+    
+        
+        .apresentacao_estudo_texto {
+            font-size: 1.2rem;
+        }
+    
+        
+        .apresentacao_experiencia_texto {
+            font-size: 1.2rem;
+        }
+    
+        
+        .apresentacao_curriculo_texto {
+            font-size: 1.2rem;
+        }
+    
+       
+        .apresentacao_links_subtitulo {
+            font-size: 1.8rem;
+        }
+
         .apresentacao_links {
             gap: 10px;}
 
@@ -256,7 +280,7 @@ body {
                 font-size: 1.2rem;}
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 802px) {
         .cabecalho {
             padding: 3%;
         }
@@ -277,6 +301,8 @@ body {
         .apresentacao_links_botoes {
                 width: 70%; }
     }
+
+
     
 }
 
