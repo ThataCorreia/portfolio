@@ -21,7 +21,7 @@ body {
   box-sizing: "border-box";
   background-color: var(--cor-quartenaria);
   color: var(--cor-quinaria);
-  overflow: hidden;
+  overflow-x:hidden;
 }
 
 .cabecalho {
@@ -202,7 +202,7 @@ body {
 }
 
 .rodape {
-  position: absolute;
+  position:unset;
   bottom: 0;
   width: 100%;
   padding: 1rem;
