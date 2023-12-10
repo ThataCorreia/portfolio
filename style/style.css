@@ -1,322 +1,309 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Libre+Franklin:ital,wght@0,300;0,600;1,300;1,500;1,600&family=Lobster+Two:wght@700&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Libre+Franklin:ital,wght@0,300;0,600;1,300;1,500;1,600&family=Lobster+Two:wght@700&family=Yanone+Kaffeesatz:wght@300&display=swap");
 
 :root {
-    --cor-primaria: #BA55D3;
-    --cor-secundaria:#D2B7FFFD;
-    --cor-terciaria:#ffd2ff;
-    --cor-quartenaria:#181818;
-    --cor-quinaria:#f2f2f2;
+  --cor-primaria: #ba55d3;
+  --cor-secundaria: #d2b7fffd;
+  --cor-terciaria: #ffd2ff;
+  --cor-quartenaria: #181818;
+  --cor-quinaria: #f2f2f2;
 
-    --fonte-titulos:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --fonte-topicos:'Yanone Kaffeesatz', sans-serif;
-    --fonte-textos:'Cormorant Garamond', serif;
+  --fonte-titulos: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  --fonte-topicos: "Yanone Kaffeesatz", sans-serif;
+  --fonte-textos: "Cormorant Garamond", serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    box-sizing: 'border-box';
-    background-color: var(--cor-quartenaria);
-    color: var(--cor-quinaria);
+  box-sizing: "border-box";
+  background-color: var(--cor-quartenaria);
+  color: var(--cor-quinaria);
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+  padding: 2% 0% 0% 15%;
 }
 
-.cabecalho_menu {  
-    display: flex;
-    gap: 80px;
+.cabecalho_menu {
+  display: flex;
+  gap: 80px;
 }
 
 .cabecalho_menu_link {
-    font-family: var(--fonte-titulos);
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--cor-primaria);
-    text-decoration: none;
+  font-family: var(--fonte-titulos);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--cor-primaria);
+  text-decoration: none;
 }
 
 .apresentacao {
-    padding: 5% 15%;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
-    
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
 }
 
 .apresentacao_conteudo {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .apresentacao_conteudo_titulo {
-    font-size: 2.25rem;
-    font-family:var(--fonte-topicos);
+  font-size: 2.25rem;
+  font-family: var(--fonte-topicos);
 }
 
 .titulo-destaque {
-    color: var(--cor-secundaria);
+  color: var(--cor-secundaria);
 }
 
 .apresentacao_conteudo_texto {
-    font-size: 1.5rem;
-    font-family:var(--fonte-textos);
-    font-weight: 400;
+  font-size: 1.5rem;
+  font-family: var(--fonte-textos);
+  font-weight: 400;
 }
 
 .apresentacao_links_subtitulo {
-    font-family:var(--fonte-titulos);
-    font-weight: 600;
-    font-size: 2.4rem;
+  font-family: var(--fonte-titulos);
+  font-weight: 600;
+  font-size: 2.4rem;
 }
 
 .apresentacao_links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
 }
 
 .apresentacao_links_botoes {
-    display:flex;
-    justify-content: center;
-    gap: 16px;
-    border: 2px solid var(--cor-primaria);
-    width: 50%;
-    text-align: center;
-    align-items: center;
-    border-radius: 8%;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--cor-quinaria);
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border: 2px solid var(--cor-primaria);
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  border-radius: 8%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--cor-quinaria);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .apresentacao_links_botoes:hover {
-
-    background-color:var(--cor-terciaria);
-    padding: 2%;
-    margin: -2%;
-    color:var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  padding: 2%;
+  margin: -2%;
+  color: var(--cor-primaria);
 }
 
 .linkedin_img {
-
-    vertical-align: middle;
-    width:60px;
-    height: 63px;
-
+  vertical-align: middle;
+  width: 60px;
+  height: 63px;
 }
 
 .github_img {
-
-    vertical-align: middle;
-    width: 60px;
-    height: 63px;
+  vertical-align: middle;
+  width: 60px;
+  height: 63px;
 }
 
 .instagram_img {
-
-    vertical-align: middle;
-    width:60px;
-    height: 63px;
+  vertical-align: middle;
+  width: 60px;
+  height: 63px;
 }
 
-.fotoperfil{
-    width: 50%;
+.fotoperfil {
+  width: 50%;
 }
 
 .apresentacao_curriculo {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.apresentacao_curriculo_curriculo{
-    color:var(--cor-primaria);
-    font-family:var(--fonte-topicos);;
-    font-size: 2.25rem;   
+.apresentacao_curriculo_curriculo {
+  color: var(--cor-primaria);
+  font-family: var(--fonte-topicos);
+  font-size: 2.25rem;
 }
 
-.apresentacao_curriculo_texto{
-    font-family:var(--fonte-textos);;
-    font-size: 1.5rem;
+.apresentacao_curriculo_texto {
+  font-family: var(--fonte-textos);
+  font-size: 1.5rem;
 }
 
 .apresentacao_conteudo_texto {
-    text-decoration: none;
-    color:var(--cor-terciaria);
+  text-decoration: none;
+  color: var(--cor-quinaria);
 }
 
 .apresentacao_titulo_sobre {
-    color:var(--cor-primaria);
-    font-family:var(--fonte-topicos);;
-    font-size: 2.1rem;  
+  color: var(--cor-primaria);
+  font-family: var(--fonte-topicos);
+  font-size: 2.1rem;
 }
 
-.apresentacao_experiencias{
-    color:var(--cor-primaria);
-    font-family:var(--fonte-topicos);;
-    font-size: 2.25rem;  
+.apresentacao_experiencias {
+  color: var(--cor-primaria);
+  font-family: var(--fonte-topicos);
+  font-size: 2.25rem;
 }
 
-.apresentacao_experiencia_texto{
-    font-family:var(--fonte-textos);;
-    font-size: 1.5rem;
+.apresentacao_experiencia_texto {
+  font-family: var(--fonte-textos);
+  font-size: 1.5rem;
 }
 
-.apresentacao_estudos{
-    color:var(--cor-primaria);
-    font-family:var(--fonte-topicos);;
-    font-size: 2.25rem; 
+.apresentacao_estudos {
+  color: var(--cor-primaria);
+  font-family: var(--fonte-topicos);
+  font-size: 2.25rem;
 }
 
-.apresentacao_estudo_texto{
-    font-family:var(--fonte-textos);;
-    font-size: 1.5rem;
+.apresentacao_estudo_texto {
+  font-family: var(--fonte-textos);
+  font-size: 1.5rem;
 }
 
 .rodape {
-    position:absolute; 
-    bottom:0; 
-    width:100%;
-    padding:24px;
-    text-align: center;
-    background-color:var(--cor-primaria);
-    color:var(--cor-secundaria);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+  text-align: center;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
 }
 
 .rodape_about {
-    position:absolute; 
-    bottom:0; 
-    width:100%;
-    padding:24px;
-    text-align: center;
-    background-color:var(--cor-primaria);
-    color:var(--cor-secundaria);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+  text-align: center;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
 }
 
 @media (max-width: 1200px) {
+  .cabecalho {
+    padding: 10%;
+  }
 
-    .cabecalho {
-        padding: 10%;
-    }
+  .cabecalho_menu {
+    justify-content: center;
+  }
 
-    .cabecalho_menu {
-        justify-content: center;
-    }
+  .apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
 
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
+  .apresentacao_conteudo {
+    width: auto;
+  }
 
-    .apresentacao_conteudo {
-        width: auto;
-    }
+  .apresentacao_curriculo {
+    width: auto;
+  }
 
-    .apresentacao_curriculo {
-        width: auto;
-        
-    }
-
-    .rodape {
-        position:relative;
-    }
-
-    @media (max-width: 480px) {
-        .cabecalho {
-            padding: 2% 0% 0% 5px;
-        }
-
-        .cabecalho_menu {
-            align-items: center;
-            gap: 10px; }
-    
-        .fotoperfil {
-            width: 100%;
-        }    
-
-        .apresentacao {
-            padding: 3%;
-        }
-
-        .apresentacao_conteudo_titulo{
-            font-size: 1.8rem;
-        }
-        .apresentacao_conteudo_texto {
-            font-size: 1.2rem;
-            margin: 10px;
-        }
-    
-        
-        .apresentacao_estudo_texto {
-            font-size: 1.2rem;
-            margin: 10px;
-        }
-    
-        
-        .apresentacao_experiencia_texto {
-            font-size: 1.2rem;
-            margin: 10px;
-        }
-    
-        
-        .apresentacao_curriculo_texto {
-            font-size: 1.2rem;
-            margin: 10px;
-        }
-    
-       
-        .apresentacao_links_subtitulo {
-            font-size: 1.8rem;
-            margin: 10px;
-        }
-
-        .apresentacao_links {
-            gap: 10px;}
-
-        .apresentacao_links_botoes {
-                width: 80%; 
-                font-size: 1.2rem;}
-    }
-
-    @media (max-width: 802px) {
-        .cabecalho {
-            padding: 3%;
-        }
-    
-        .cabecalho_menu {
-            align-items: center;
-            gap: 20px; 
-        }
-
-        .apresentacao {
-            padding: 3%;
-        }
-
-        .apresentacao_links {
-            flex-direction: column;
-            gap: 20px;}
-
-        .apresentacao_links_botoes {
-                width: 70%; }
-    }
-
-
-    
+  .rodape {
+    position: relative;
+  }
 }
 
+@media (max-width: 480px) {
+  .cabecalho {
+    padding: 2% 0% 0% 5px;
+  }
 
+  .cabecalho_menu {
+    align-items: center;
+    gap: 10px;
+  }
 
+  .fotoperfil {
+    width: 60%;
+  }
+
+  .apresentacao {
+    padding: 3%;
+  }
+
+  .apresentacao_conteudo_titulo {
+    font-size: 1.8rem;
+  }
+  .apresentacao_conteudo_texto {
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+
+  .apresentacao_estudo_texto {
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+
+  .apresentacao_experiencia_texto {
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+
+  .apresentacao_curriculo_texto {
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+
+  .apresentacao_links_subtitulo {
+    font-size: 1.8rem;
+    margin: 10px;
+  }
+
+  .apresentacao_links {
+    gap: 10px;
+  }
+
+  .apresentacao_links_botoes {
+    width: 70%;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 802px) {
+  .cabecalho {
+    padding: 3%;
+  }
+
+  .cabecalho_menu {
+    align-items: center;
+    gap: 20px;
+  }
+
+  .apresentacao {
+    padding: 3%;
+  }
+
+  .apresentacao_links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .apresentacao_links_botoes {
+    width: 70%;
+  }
+}
