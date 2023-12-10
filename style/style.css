@@ -256,7 +256,7 @@ body {
   }
 
   .cabecalho {
-    padding: 2vw 0 0 1vw;
+    padding: 2vw 0 0 2vw;
   }
 
   .cabecalho_menu {
@@ -265,7 +265,7 @@ body {
   }
 
   .fotoperfil {
-    width: 40vh;
+    width: 35vh;
     height: auto;
     border-radius: 40%;
   }
