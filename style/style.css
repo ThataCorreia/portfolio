@@ -249,7 +249,6 @@ body {
 @media (max-width: 480px) {
 
   .body {
-    display:inline-block;
     overflow-x: hidden;
     box-sizing: border-box;
     width: 90%;
@@ -262,7 +261,7 @@ body {
 
   .cabecalho_menu {
     align-items: center;
-    gap: 10px;
+    gap: 5px;
   }
 
   .fotoperfil {
