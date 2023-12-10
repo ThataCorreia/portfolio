@@ -252,7 +252,6 @@ body {
   .body {
     overflow-x: hidden;
     box-sizing: border-box;
-    border-right: none;
   }
 
   .cabecalho {
@@ -321,7 +320,7 @@ body {
   }
 
   .apresentacao_links_subtitulo {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin: 10px;
   }
 
@@ -330,8 +329,8 @@ body {
   }
 
   .apresentacao_links_botoes {
-    width: 50vh;
-    font-size: 1.2rem;
+    width: 40vh;
+    font-size: 1rem;
   }
 
   .rodape {
