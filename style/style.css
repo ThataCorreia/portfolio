@@ -19,6 +19,7 @@
 }
 
 body {
+  overflow-x:hidden;
   box-sizing: "border-box";
   background-color: var(--cor-quartenaria);
   color: var(--cor-quinaria);
@@ -192,7 +193,6 @@ body {
   font-family: var(--fonte-textos);
   font-size: 1.5rem;
   padding: 1rem;
-  margin: -1rem;
 }
 
 .certificado_link {
@@ -202,7 +202,7 @@ body {
 }
 
 .rodape {
-  position:unset;
+  position:absolute;
   bottom: 0;
   width: 100%;
   padding: 1rem;
