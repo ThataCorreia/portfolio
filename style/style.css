@@ -241,6 +241,11 @@ body {
 }
 
 @media (max-width: 480px) {
+
+  .body {
+    overflow-x: hidden;
+  }
+
   .cabecalho {
     padding: 2% 0% 0% 5px;
   }
@@ -292,7 +297,7 @@ body {
   }
 
   .apresentacao_links_botoes {
-    width: 70%;
+    width: 50%;
     font-size: 1.2rem;
   }
 
