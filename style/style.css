@@ -265,7 +265,7 @@ body {
 
   .fotoperfil {
     width: 40vh;
-  
+    height: auto;
   }
 
   .apresentacao {
@@ -329,7 +329,7 @@ body {
   }
 
   .apresentacao_links_botoes {
-    width: 50vh;
+    width: 60vh;
     font-size: 1.2rem;
   }
 
