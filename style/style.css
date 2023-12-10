@@ -246,12 +246,7 @@ body {
   }
 }
 
-@media (max-width: 480px) {
-
-  .main {
-    width: 90%;
-    margin: 0 auto;
-  }
+@media (max-width: 768px) {
 
   .body {
     overflow-x: hidden;
@@ -343,7 +338,7 @@ body {
   }
 }
 
-@media (max-width: 802px) {
+@media (max-width: 800px) {
   .cabecalho {
     padding: 3%;
   }
