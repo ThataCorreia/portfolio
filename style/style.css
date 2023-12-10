@@ -246,12 +246,11 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
   .body {
     overflow-x: hidden;
     box-sizing: border-box;
-    font-size: 2vw;
     width: 90%;
     margin: 0 auto;
   }
@@ -276,22 +275,22 @@ body {
   }
 
   .apresentacao_conteudo_titulo {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .apresentacao_conteudo_texto {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 10px;
     
   }
 
   .apresentacao_estudos {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin: -1%;
   }
 
   .apresentacao_estudo_texto {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
@@ -299,26 +298,26 @@ body {
   }
 
   .apresentacao_experiencias {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin: -1%;
     
   }
 
   .apresentacao_experiencia_texto {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 1rem;
     
   }
 
   .apresentacao_curriculo_texto {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     
   }
 
   .apresentacao_links_subtitulo {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin: 10px;
   }
 
@@ -328,7 +327,7 @@ body {
 
   .apresentacao_links_botoes {
     width: 60vh;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .rodape {
