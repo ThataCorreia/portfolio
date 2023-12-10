@@ -132,6 +132,7 @@ body {
 .fotoperfil {
   width: 50%;
   height: 50%;
+  border-radius:40%;
 }
 
 .apresentacao_curriculo {
@@ -249,8 +250,7 @@ body {
 @media (max-width: 480px) {
 
   .body {
-    margin: 0;
-    padding: 0;
+    margin: auto;
     overflow-x: hidden;
     box-sizing: border-box;
   }
