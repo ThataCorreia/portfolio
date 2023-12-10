@@ -9,7 +9,7 @@
 
   --fonte-titulos: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   --fonte-topicos: "Yanone Kaffeesatz", sans-serif;
-  --fonte-textos: "Cormorant Garamond", serif;
+  --fonte-textos: "Noto Serif", serif;
 }
 
 * {
@@ -20,6 +20,7 @@
 
 body {
   box-sizing: "border-box";
+  height: 100vh;
   overflow-x: hidden;
   background-color: var(--cor-quartenaria);
   color: var(--cor-quinaria);
@@ -69,8 +70,7 @@ body {
 
 .apresentacao_conteudo_texto {
   font-size: 1.5rem;
-  font-family: var(--fonte-textos);
-  font-weight: 400;
+  font-family:var(--fonte-textos);
 }
 
 .apresentacao_links_subtitulo {
@@ -132,6 +132,7 @@ body {
 .fotoperfil {
   width: 50%;
   height: 50%;
+  border-radius: 40%;
 }
 
 .apresentacao_curriculo {
@@ -201,6 +202,22 @@ body {
   text-align: center;
   font-family: Tahoma, Verdana, sans-serif;
   background-color: var(--cor-primaria);
+}
+
+@keyframes piscar {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.emojinotebook{
+    animation: piscar 2s infinite; 
 }
 
 @media (max-width: 1200px) {
