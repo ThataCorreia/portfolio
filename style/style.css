@@ -236,7 +236,7 @@ body {
 
 @media (max-width: 480px) {
 
-  .body {
+  .main {
     overflow-x: hidden;
     box-sizing: border-box;
     width: 80%;
