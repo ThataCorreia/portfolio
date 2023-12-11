@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Libre+Franklin:ital,wght@0,300;0,600;1,300;1,500;1,600&family=Lobster+Two:wght@700&family=Yanone+Kaffeesatz:wght@300&display=swap");
 
 :root {
-  --cor-primaria: #ba55d3;
-  --cor-secundaria: #d2b7fffd;
-  --cor-terciaria: #ffd2ff;
-  --cor-quartenaria: #181818;
-  --cor-quinaria: #f2f2f2;
+  --cor-do-fundo: #EAE0F3;
+  --cor-primaria:rgb(151, 1, 151);
+  --cor-terciaria:#a674c4;
+  --cor-secundaria: #e06cd1;
+  --cor-quinaria: #520040;
 
   --fonte-titulos: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   --fonte-topicos: "Yanone Kaffeesatz", sans-serif;
@@ -22,7 +22,7 @@ body {
   box-sizing:border-box;
   height: 100vh;
   overflow-x: hidden;
-  background-color: var(--cor-quartenaria);
+  background-color:var(--cor-do-fundo);
   color: var(--cor-quinaria);
 }
 
@@ -182,13 +182,17 @@ body {
 }
 
 .rodape {
-  position: absolute;
+  position:absolute;
   width: 100%;
   bottom: 0;
   padding: 1rem;
   text-align: center;
   font-family: Tahoma, Verdana, sans-serif;
   background-color: var(--cor-primaria);
+}
+
+.texto_rodape {
+  color:#EAE0F3;
 }
 
 @keyframes piscar {
@@ -230,7 +234,8 @@ body {
   }
 
   .rodape {
-    padding: 10px;
+    position:unset;
+    padding: 1rem;
   }
 }
 
@@ -332,12 +337,16 @@ body {
   }
 
   .rodape {
+    position: unset;
+    width: auto;
+    padding: 1rem;
     font-size: 0.75rem;
-    padding: 10px;
   }
+
 }
 
 @media (max-width: 800px) {
+
   .cabecalho {
     padding: 3%;
   }
@@ -361,7 +370,7 @@ body {
   }
 
   .rodape {
-    position: unset;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 0;
   }
 }
