@@ -239,8 +239,8 @@ body {
   .body {
     overflow-x: hidden;
     box-sizing: border-box;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
   }
 
  .cabecalho_menu_link{
