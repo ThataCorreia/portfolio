@@ -44,11 +44,11 @@ body {
 }
 
 .apresentacao {
-  padding: 5% 15%;
+  padding: 4% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 82px;
+  gap: 80px;
 }
 
 .apresentacao_conteudo {
@@ -111,19 +111,7 @@ body {
   color: var(--cor-primaria);
 }
 
-.linkedin_img {
-  vertical-align: middle;
-  width: 60px;
-  height: 63px;
-}
-
-.github_img {
-  vertical-align: middle;
-  width: 60px;
-  height: 63px;
-}
-
-.instagram_img {
+.logos {
   vertical-align: middle;
   width: 60px;
   height: 63px;
@@ -194,8 +182,9 @@ body {
 }
 
 .rodape {
-  position:absolute;
+  position: absolute;
   width: 100%;
+  bottom: 0;
   padding: 1rem;
   text-align: center;
   font-family: Tahoma, Verdana, sans-serif;
@@ -242,7 +231,6 @@ body {
 
   .rodape {
     padding: 10px;
-    position: unset;
   }
 }
 
@@ -251,40 +239,38 @@ body {
   .body {
     overflow-x: hidden;
     box-sizing: border-box;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
 
-  .cabecalho {
-    padding: 2vw 0 0 2vw;
-  }
-
-  .cabecalho_menu {
-    align-items: center;
-    gap: 5px;
-  }
+ .cabecalho_menu_link{
+  font-size: 1.3rem;
+ }
 
   .fotoperfil {
-    width: 35vh;
+    width: 25vh;;
     height: auto;
     border-radius: 40%;
+    margin-bottom: -11%;
   }
 
-  .apresentacao {
-    padding: 3%;
+  .apresentacao_titulo_sobre {
+    font-size: 1.3rem;
   }
 
   .apresentacao_conteudo_titulo {
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
   }
 
   .apresentacao_conteudo_texto {
     font-size: 1rem;
-    margin: 10px;
-    
+    margin: 1%;
+    margin-top: -4%;
   }
 
   .apresentacao_estudos {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: -1%;
   }
 
@@ -297,7 +283,7 @@ body {
   }
 
   .apresentacao_experiencias {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: -1%;
     
   }
@@ -308,6 +294,11 @@ body {
     
   }
 
+  .apresentacao_curriculo_curriculo {
+    font-size: 1.3rem;
+    margin: -1%;
+  }
+
   .apresentacao_curriculo_texto {
     font-size: 1rem;
     margin-top: 0.5rem;
@@ -316,21 +307,28 @@ body {
   }
 
   .apresentacao_links_subtitulo {
-    font-size: 1.5rem;
-    margin: 10px;
+    font-size: 0rem;
+    margin-top: -14%;
+    
   }
 
   .apresentacao_links {
+    align-self: center;
+    width: 18.75rem;
     gap: 10px;
   }
 
   .apresentacao_links_botoes {
-    width: 60vh;
     font-size: 1rem;
   }
 
+  .logos {
+    vertical-align: middle;
+    width: 20%;
+    height: auto;
+  }
+
   .rodape {
-    position: unset;
     font-size: 0.75rem;
     padding: 10px;
   }
